@@ -56,3 +56,4 @@ Testando
 * O comando `docker-compose down` remove os containers e as networks padrão, mas mantém o banco de dados do seu Wordpress.
 * O Comando `docker-compose down --volumes` remove os containers, as networks padrão e os bancos de dados
 ## Referências: [Compose and Wordpress](https://docs.docker.com/samples/wordpress/)
+[docker-compose.yml](https://github.com/witcliff-byte/docker-technologies/blob/main/docker-compose.yml)
