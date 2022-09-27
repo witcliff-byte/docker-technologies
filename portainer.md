@@ -20,4 +20,5 @@ O Portainer roda exclusivamente no seu servidor, com a sua rede, atrás do seu p
 
 # Referências
 [Documentação Oficial](https://docs.portainer.io/start/architecture)
+
 [learning Docker is HARD!! ~ Network Chuck](https://www.youtube.com/watch?v=iX0HbrfRyvc&t=85s)
