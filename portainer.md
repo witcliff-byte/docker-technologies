@@ -17,7 +17,10 @@ O Portainer roda exclusivamente no seu servidor, com a sua rede, atrás do seu p
 5. Entre no seu endereço de IP por um navegador web, especificando a porta que expomos com protocolo https: `https://meu_ip_addr:9443`
 6. Crie uma senha para seu usuário administrador.
 ![Portainer Painel](https://github.com/witcliff-byte/docker-technologies/blob/main/portaineradm.png)
-
+##Ambientes
+![Portainer Env](https://github.com/witcliff-byte/docker-technologies/blob/main/portainerenv.png)
+##Dashboard
+![Portainer Dashboard](https://github.com/witcliff-byte/docker-technologies/blob/main/portainerdash.png)
 # Referências
 [Documentação Oficial](https://docs.portainer.io/start/architecture)
 
