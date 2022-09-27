@@ -2,7 +2,7 @@
 O Portainer é um gerenciador amigável de containers, através ele podemos criar ambientes, configurar imagens e containers e muito mais em um navegador web.
 
 # Sobre o portainer
-O Portainer consiste em dois elementos: o servidor Portainer e o cliente. Ambos rodam como containers no seu Docker
+O Portainer consiste em dois elementos: o servidor Portainer e o cliente. Ambos rodam como containers no seu Docker.
 ![Portainer Archtecture](https://github.com/witcliff-byte/docker-technologies/blob/main/portainer-architecture-detailed.png)
 Um único Servidor Portainer irá aceitar conexões de vários clientes, habilitando a gerenciar multiplos clusters de uma única interface centralizada. Para isso, o container do servidor Portainer requer um volume de data persistente. O cliente portainer é indepentente,e os dados retornam para o container do servidor Portainer.
 
