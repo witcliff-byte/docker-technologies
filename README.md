@@ -3,7 +3,7 @@ O Portainer é um gerenciador amigável de containers, através ele podemos cria
 
 # Sobre o portainer
 O Portainer consiste em dois elementos: o servidor Portainer e o cliente. Ambos rodam como containers no seu Docker.
-![Portainer Archtecture](https://github.com/witcliff-byte/docker-technologies/blob/main/portainer-architecture-detailed.png)
+![Portainer Archtecture](https://github.com/witcliff-byte/docker-technologies/blob/main/images/portainer-architecture-detailed.png)
 Um único Servidor Portainer irá aceitar conexões de vários clientes, habilitando a gerenciar multiplos clusters de uma única interface centralizada. Para isso, o container do servidor Portainer requer um volume de data persistente. O cliente portainer é indepentente,e os dados retornam para o container do servidor Portainer.
 
 ## Segurança e Certificação
@@ -16,11 +16,11 @@ O Portainer roda exclusivamente no seu servidor, com a sua rede, atrás do seu p
 4. Verifique se seu container está funcionando com `docker ps`
 5. Entre no seu endereço de IP por um navegador web, especificando a porta que expomos com protocolo https: `https://meu_ip_addr:9443`
 6. Crie uma senha para seu usuário administrador.
-![Portainer Painel](https://github.com/witcliff-byte/docker-technologies/blob/main/portaineradm.png)
+![Portainer Painel](https://github.com/witcliff-byte/docker-technologies/blob/main/images/portaineradm.png)
 ## Ambientes
-![Portainer Env](https://github.com/witcliff-byte/docker-technologies/blob/main/portainerenv.png)
+![Portainer Env](https://github.com/witcliff-byte/docker-technologies/blob/main/images/portainerenv.png)
 ## Dashboard
-![Portainer Dashboard](https://github.com/witcliff-byte/docker-technologies/blob/main/portainerdash.png)
+![Portainer Dashboard](https://github.com/witcliff-byte/docker-technologies/blob/main/images/portainerdash.png)
 # Referências
 [Documentação Oficial](https://docs.portainer.io/start/architecture)
 
